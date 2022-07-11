@@ -2,11 +2,6 @@ import { ColorMath } from "./ColorMath";
 
 type ColorTuple = [number, number, number, number];
 type HexaTuple = [string, string, string, string];
-export type Colors = {
-	rgbaColorString: string;
-	hslaColorString: string;
-	hexaColorString: string;
-};
 
 class Color {
 	static transformUnknown(color: string) {
@@ -200,4 +195,4 @@ class Color {
 	}
 }
 
-export default Color;
+export { Color };

@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Color, { type Colors } from "../models/service/Color";
+	import { Color } from "../logic/Color";
+	import type { Colors } from "../types/Colors";
 
 	import WidgetContainer from "./WidgetContainer.svelte";
 
