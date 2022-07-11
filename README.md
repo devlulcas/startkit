@@ -4,3 +4,5 @@
 ![VERCEL](https://img.shields.io/static/v1?label=VERCEL&labelColor=0F172A&message=DEPLOY&color=5B21B6&logo=VERCEL&logoColor=ffffff&style=flat-square)
 
 # 🐱 STARTKIT
+
+![preview-design](https://raw.githubusercontent.com/devlulcas/startkit/main/.github/images/preview.png)
