@@ -15,6 +15,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@types/three": "^0.141.0",
 		"@typescript-eslint/eslint-plugin": "^5.30.5",
 		"@typescript-eslint/parser": "^5.30.5",
 		"autoprefixer": "^10.4.7",
@@ -40,6 +41,8 @@
 		"@fortawesome/fontawesome-svg-core": "^6.1.1",
 		"@fortawesome/free-brands-svg-icons": "^6.1.1",
 		"@fortawesome/free-regular-svg-icons": "^6.1.1",
-		"@fortawesome/free-solid-svg-icons": "^6.1.1"
+		"@fortawesome/free-solid-svg-icons": "^6.1.1",
+		"svelte-cubed": "^0.2.1",
+		"three": "^0.142.0"
 	}
 }

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Color } from "../logic/Color";
+	import { transformUnknown } from "../logic/Color";
 	import type { Colors } from "../types/Colors";
 
 	import WidgetContainer from "./WidgetContainer.svelte";
@@ -12,7 +12,7 @@
 		rgbaColorString: "rgba(255, 255, 255, 1)",
 	};
 
-	$: colors = Color.transformUnknown(color) ?? defaultColors;
+	$: colors = transformUnknown(color) ?? defaultColors;
 </script>
 
 <WidgetContainer>
